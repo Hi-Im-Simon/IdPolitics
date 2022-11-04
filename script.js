@@ -1,32 +1,51 @@
-// class = r-kzbkwu
 // Sejm API - IX kadencja (lista posłów) = https://api.sejm.gov.pl/sejm/term9/MP
-document.body.style.border = "5px solid blue";
 
-// document.body.appendChild(document.createElement('p'));
-// posts[2].appendChild(document.createElement('p'));
+var CURRENT_POST_COUNT = 0;
+var SEJM_POLITICIANS;
+var HANDLES_TO_NAMES;
 
 
-const func = () => {
-    var posts = document.getElementsByTagName('article');
-    if (posts.length < 1) {
-        setTimeout(func, 1000);
-    }
+fetchJSON('data/parliament_polish_mps.json').then(p => {
+    SEJM_POLITICIANS = p;
+});
+
+fetchJSON('data/handle_to_name.json').then(htn => {
+    HANDLES_TO_NAMES = htn;
+});
+
+
+const main = () => {
+    let posts = $('.r-kzbkwu'); // load all elements with Twitter post class 
+    if (posts.length < 1) setTimeout(main, 500);
+    else if (posts.length == CURRENT_POST_COUNT) return;
     else {
-        // for (var i = 0; i < posts.length; i++) {
-        //     let el = document.createElement('p');
-        //     console.log('eo2');
-        //     posts[i].appendChild(el);
-        // }
-        console.log(posts);
+        CURRENT_POST_COUNT = posts.length;
+        posts.each(function() {
+            if (!$(this).hasClass('searched')) {
+                let handle = $(this).find('a > div > span.r-poiln3').text(); // find a @tag of Twitter post's author
+
+                if (HANDLES_TO_NAMES.hasOwnProperty(handle)) {
+                    let elem = $(`
+                        <div>
+                            <span>${ handle }</span>
+                        </div>
+                    `).css({
+                        'color': 'white',
+                        'font-family': 'Comic Sans MS'
+                    });
+                    $(this).addClass('searched');
+                    $(this).children(':last-child').before(elem);
+                }
+            }
+        });
     }
 }
 
-if (document.readyState === 'complete') {
-    func();
-} else {
+document.addEventListener('scroll', main);
+
+if (document.readyState === 'complete') main();
+else {
     document.onreadystatechange = function () {
-        if (document.readyState == "complete") {
-            func();
-        }
+        if (document.readyState == 'complete') main();
     }
 }

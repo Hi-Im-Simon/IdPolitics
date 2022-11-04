@@ -1,5 +1,4 @@
 {
-
     "manifest_version": 2,
     "name": "IdPolitics",
     "version": "1.0",
@@ -9,16 +8,25 @@
     "icons": {
       "48": "icons/border-48.png"
     },
-  
+
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "webRequest"
     ],
 
     "content_scripts": [
       {
         "matches": ["*://*.twitter.com/*"],
-        "js": ["script.js"]
+        "js": [
+            "libs/jquery-3.6.1.js",
+            "libs/fetch.js",
+            "script.js"
+        ]
       }
-    ]
+    ],
   
+    "web_accessible_resources": [
+        "data/parliament_polish_mps.json",
+        "data/handle_to_name.json"
+    ]
 }
