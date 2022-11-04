@@ -1,0 +1,24 @@
+{
+
+    "manifest_version": 2,
+    "name": "IdPolitics",
+    "version": "1.0",
+  
+    "description": "Labels Polish politicians' Twitter profiles according to the party they belong to.",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "permissions": [
+        "activeTab"
+    ],
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.twitter.com/*"],
+        "js": ["script.js"]
+      }
+    ]
+  
+}

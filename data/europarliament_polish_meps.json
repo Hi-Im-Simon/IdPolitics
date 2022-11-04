@@ -1,0 +1,370 @@
+{
+    "meps": {
+        "mep": [
+            {
+                "fullName": "Magdalena ADAMOWICZ",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "197490",
+                "nationalPoliticalGroup": "Independent"
+            },
+            {
+                "fullName": "Bartosz ARŁUKOWICZ",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "197492",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Marek Paweł BALT",
+                "country": "Poland",
+                "politicalGroup": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+                "id": "197495",
+                "nationalPoliticalGroup": "Nowa Lewica"
+            },
+            {
+                "fullName": "Marek BELKA",
+                "country": "Poland",
+                "politicalGroup": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+                "id": "197496",
+                "nationalPoliticalGroup": "Nowa Lewica"
+            },
+            {
+                "fullName": "Robert BIEDROŃ",
+                "country": "Poland",
+                "politicalGroup": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+                "id": "197498",
+                "nationalPoliticalGroup": "Nowa Lewica"
+            },
+            {
+                "fullName": "Adam BIELAN",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "23788",
+                "nationalPoliticalGroup": "Partia Republikańska"
+            },
+            {
+                "fullName": "Joachim Stanisław BRUDZIŃSKI",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197501",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Jerzy BUZEK",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "28269",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Włodzimierz CIMOSZEWICZ",
+                "country": "Poland",
+                "politicalGroup": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+                "id": "197507",
+                "nationalPoliticalGroup": "Sojusz Lewicy Demokratycznej - Unia Pracy"
+            },
+            {
+                "fullName": "Ryszard CZARNECKI",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "28372",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Jarosław DUDA",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "197510",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Anna FOTYGA",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "28353",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Tomasz FRANKOWSKI",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "197513",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Andrzej HALICKI",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "197514",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Krzysztof HETMAN",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "124895",
+                "nationalPoliticalGroup": "Polskie Stronnictwo Ludowe"
+            },
+            {
+                "fullName": "Danuta Maria HÜBNER",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "96779",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Patryk JAKI",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197516",
+                "nationalPoliticalGroup": "Solidarna Polska Zbigniewa Ziobro"
+            },
+            {
+                "fullName": "Adam JARUBAS",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "197517",
+                "nationalPoliticalGroup": "Polskie Stronnictwo Ludowe"
+            },
+            {
+                "fullName": "Krzysztof JURGIEL",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197518",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Jarosław KALINOWSKI",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "96771",
+                "nationalPoliticalGroup": "Polskie Stronnictwo Ludowe"
+            },
+            {
+                "fullName": "Karol KARSKI",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "124887",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Beata KEMPA",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197519",
+                "nationalPoliticalGroup": "Solidarna Polska Zbigniewa Ziobro"
+            },
+            {
+                "fullName": "Izabela-Helena KLOC",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197520",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Łukasz KOHUT",
+                "country": "Poland",
+                "politicalGroup": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+                "id": "197523",
+                "nationalPoliticalGroup": "Nowa Lewica"
+            },
+            {
+                "fullName": "Ewa KOPACZ",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "197525",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Joanna KOPCIŃSKA",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197530",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Zdzisław KRASNODĘBSKI",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "124891",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Elżbieta KRUK",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197532",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Zbigniew KUŹMIUK",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "28389",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Ryszard Antoni LEGUTKO",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "96796",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Janusz LEWANDOWSKI",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "23781",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Bogusław LIBERADZKI",
+                "country": "Poland",
+                "politicalGroup": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+                "id": "23768",
+                "nationalPoliticalGroup": "Nowa Lewica"
+            },
+            {
+                "fullName": "Elżbieta Katarzyna ŁUKACIJEWSKA",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "96791",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Beata MAZUREK",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197538",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Leszek MILLER",
+                "country": "Poland",
+                "politicalGroup": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
+                "id": "197540",
+                "nationalPoliticalGroup": "Independent"
+            },
+            {
+                "fullName": "Andżelika Anna MOŻDŻANOWSKA",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197541",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Janina OCHOJSKA",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "197542",
+                "nationalPoliticalGroup": "Independent"
+            },
+            {
+                "fullName": "Jan OLBRYCHT",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "28288",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Tomasz Piotr PORĘBA",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "96801",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Elżbieta RAFALSKA",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197544",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Bogdan RZOŃCA",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197545",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Jacek SARYUSZ-WOLSKI",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "28297",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Radosław SIKORSKI",
+                "country": "Poland",
+                "politicalGroup": "Group of the European People's Party (Christian Democrats)",
+                "id": "197548",
+                "nationalPoliticalGroup": "Platforma Obywatelska"
+            },
+            {
+                "fullName": "Sylwia SPUREK",
+                "country": "Poland",
+                "politicalGroup": "Group of the Greens/European Free Alliance",
+                "id": "197550",
+                "nationalPoliticalGroup": "Independent"
+            },
+            {
+                "fullName": "Beata SZYDŁO",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197553",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Dominik TARCZYŃSKI",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "204346",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Róża THUN UND HOHENSTEIN",
+                "country": "Poland",
+                "politicalGroup": "Renew Europe Group",
+                "id": "96776",
+                "nationalPoliticalGroup": "Polska 2050"
+            },
+            {
+                "fullName": "Grzegorz TOBISZOWSKI",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197559",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Witold Jan WASZCZYKOWSKI",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197566",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Jadwiga WIŚNIEWSKA",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "124877",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Anna ZALEWSKA",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "197572",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            },
+            {
+                "fullName": "Kosma ZŁOTOWSKI",
+                "country": "Poland",
+                "politicalGroup": "European Conservatives and Reformists Group",
+                "id": "124884",
+                "nationalPoliticalGroup": "Prawo i Sprawiedliwość"
+            }
+        ]
+    }
+}
