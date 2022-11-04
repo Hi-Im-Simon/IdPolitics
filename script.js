@@ -8,14 +8,18 @@ document.body.style.border = "5px solid blue";
 
 const func = () => {
     var posts = document.getElementsByTagName('article');
-    // for (var i = 0; i < posts.length; i++) {
-    //     let el = document.createElement('p');
-    //     console.log('eo2');
-    //     posts[i].appendChild(el);
-    // }
-    console.log(posts);
+    if (posts.length < 1) {
+        setTimeout(func, 1000);
+    }
+    else {
+        // for (var i = 0; i < posts.length; i++) {
+        //     let el = document.createElement('p');
+        //     console.log('eo2');
+        //     posts[i].appendChild(el);
+        // }
+        console.log(posts);
+    }
 }
-
 
 if (document.readyState === 'complete') {
     func();
