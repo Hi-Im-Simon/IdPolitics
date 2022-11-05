@@ -4,10 +4,6 @@
     "version": "1.0",
   
     "description": "Labels Polish politicians' Twitter profiles according to the party they belong to.",
-  
-    "icons": {
-      "48": "icons/border-48.png"
-    },
 
     "permissions": [
         "activeTab",
@@ -28,5 +24,9 @@
     "web_accessible_resources": [
         "data/parliament_polish_mps.json",
         "data/handle_to_name.json"
-    ]
+    ],
+    
+    "icons": {
+        "96": "icon.png"
+    }
 }

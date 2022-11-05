@@ -1,7 +1,7 @@
 // Sejm API - IX kadencja (lista posłów) = https://api.sejm.gov.pl/sejm/term9/MP
 
 var CURRENT_POST_COUNT = 0;
-var SEJM_POLITICIANS;
+var SEJM_POLITICIANS = [];
 var HANDLES_TO_NAMES;
 
 
@@ -24,15 +24,38 @@ const main = () => {
             if (!$(this).hasClass('searched')) {
                 let handle = $(this).find('a > div > span.r-poiln3').text(); // find a @tag of Twitter post's author
 
-                if (HANDLES_TO_NAMES.hasOwnProperty(handle)) {
+                if (HANDLES_TO_NAMES.hasOwnProperty(handle)) { // if this person exists in JSON
+                    let person;
+                    for (person of SEJM_POLITICIANS) {
+                        if (person.firstLastName.toLowerCase() == HANDLES_TO_NAMES[handle].toLowerCase()) break;
+                    }
+
                     let elem = $(`
                         <div>
-                            <span>${ handle }</span>
+                            <span
+                                class='person-info'
+                                title='${ 
+                                    (person.firstLastName) + '\n'
+                                    + 'okręg wyborczy - ' + (person.districtName) + ' (nr ' + (person.discritNum) + ')\n'
+                                    + 'aktywn' + (person.firstName[person.firstName.length-1] === 'a' ? 'a' : 'y') + ' w polityce - ' + (person.active ? 'tak' : 'nie') + '\n'  // if true then 'tak' else 'nie'
+                                    + 'email - ' + (person.email) + ' (kliknij aby skopiować)'
+                                }'
+                            >
+                                &#9432; Człon${ (person.firstName[person.firstName.length-1] === 'a' ? 'kini' : 'ek') } klubu ${ person.club }
+                            </span>
                         </div>
                     `).css({
-                        'color': 'white',
-                        'font-family': 'Comic Sans MS'
+                        'color': 'rgb(109, 114, 119)',
+                        'font-family': '\'Segoe UI\', system-ui, sans-serif',
+                        'margin-bottom': '5px',
+                        'font-weight': '550',
                     });
+
+                    $('.person-info').click(function (elem) {
+                        navigator.clipboard.writeText(person.email);    // copy email to clipboard on click
+                        elem.stopPropagation();                         // remove other onclick functionalities
+                    });
+
                     $(this).addClass('searched');
                     $(this).children(':last-child').before(elem);
                 }
