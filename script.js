@@ -13,6 +13,10 @@ fetchJSON('data/handle_to_name.json').then(htn => {
     HANDLES_TO_NAMES = htn;
 });
 
+const hideElement = (elem) => {
+    elem.css('display', 'none');
+};
+
 
 const main = () => {
     let posts = $('.r-kzbkwu'); // load all elements with Twitter post class 
@@ -51,8 +55,32 @@ const main = () => {
                         'font-weight': '550',
                     });
 
+                    let onClickElem = $(`
+                        <div id='popup'>
+                            <span>
+                                Email został skopiowany do schowka.
+                            </span>
+                        </div>
+                    `).css({
+                        'background': '#1d9bf0',
+                        'color': 'white',
+                        'font-family': '\'Segoe UI\', system-ui, sans-serif',
+                        'font-weight': 'bold',
+                        'border-radius': '50px',
+                        'text-align': 'center',
+                        'width': '300px',
+                        'padding': '15px',
+                        'position': 'fixed',
+                        'top': 'calc(100vh - 70px)',
+                        'left': 'calc(50% - 150px)',
+                        'display': 'none',
+                    });
+                    $('body').append(onClickElem);
+
                     $('.person-info').click(function (elem) {
                         navigator.clipboard.writeText(person.email);    // copy email to clipboard on click
+                        $('#popup').css('display', 'block');
+                        setTimeout(hideElement, 2000, $('#popup'));
                         elem.stopPropagation();                         // remove other onclick functionalities
                     });
 
