@@ -1,3 +1,4 @@
+<h1>DEPRECATED</h1>
 ## IdPolitics
 A Firefox extension that labels Polish politicians' Twitter profiles according to the party they belong to
 
